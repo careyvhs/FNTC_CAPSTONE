@@ -1,0 +1,11 @@
+h3, p {
+    text-align: center;
+    outline-style: ridge;
+    outline-color: white;
+    color: rgb(255, 255, 255);
+}
+
+::spelling-error {
+  text-decoration: underline red;
+  color: red;
+}

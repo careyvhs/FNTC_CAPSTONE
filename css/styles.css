@@ -1,21 +1,23 @@
+/* test comment */
 h1 {
     font-weight: bold;
     font-family:cursive
 }
 
 body {
-    font-family: "Source Serif 4", serif;
-    font-optical-sizing: auto;
-    font-weight: 250;
-    font-style: normal;
-}
-
- background {
-    background-image: url('babyonbaby.jpg');
+    background-image: url('coffee_backdrop.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center center;
-    position: fixed;
-    top: 0;
+}
+
+p {
+    line-height: 2;
+
+}
+
+::spelling-error {
+  text-decoration: underline red;
+  color: red;
 }
